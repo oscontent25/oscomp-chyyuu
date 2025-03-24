@@ -1,12 +1,12 @@
 # oscomp kernel training
 **2025年开源操作系统训练营 oskernel训练**
-
+  
 ## 训练邀请：OS kernel设计与实现
 - [点击：创建自己的内核赛道训练repo](https://classroom.github.com/a/8ZVYf51W)
-- [点击：查看在线榜单](https://oscontent25.github.io/oscomp-grading)
-
+- [点击：查看在线榜单](https://oscontent25.github.io/classroom-grading-template)
+ 
 本测试涵盖riscv64、loongarch64、aarch64、x86_64四种架构测例，测例内容基本一致。
-
+ 
 **注：**
 1. **基于Github Classroom，具有在线编程，在线自动评测，在线显示排行榜的特征**
 2. **没学过git/github使用、C/Rust语言、基本数据结构和算法、操作系统和与RISC-V相关的组成原理课程的同学，建议先补一下相关知识**
@@ -24,7 +24,6 @@
 ## 在线测试
 github的CI对内核进行测试的执行时间设置为 `300` 秒（`5`分钟），超时后程序会被终止，不再继续执行，所得分数为超时前完成的部分的分数。
 github的CI执行完毕后，你可以在相应仓库的action中查看详细结果。
-github的CI测试可能会有脚本执行的权限问题，如果添加`chmod +x`后没有解决，可以次啊用`git update-index --chmod=+x build.cmd`。
 
 ## 注意事项
 - `QEMU` 版本为 `9.2.1`
