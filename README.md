@@ -4,6 +4,7 @@
 ## 训练邀请：OS kernel设计与实现
 - [点击：创建自己的内核赛道训练repo](https://classroom.github.com/a/8ZVYf51W)
 - [点击：查看在线榜单](https://oscontent25.github.io/classroom-grading-template)
+
  
 本测试涵盖riscv64、loongarch64、aarch64、x86_64四种架构测例，测例内容基本一致。
  
